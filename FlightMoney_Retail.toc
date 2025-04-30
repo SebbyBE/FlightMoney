@@ -1,0 +1,15 @@
+## Interface: 100207  -- Retail (10.2.7 as of April 2025)
+## Title: Flight Money
+## Author: Bougie
+## Version: 0.0.1
+## Notes: Tracks how much money and how much time you have spent on flights
+## SavedVariablesPerCharacter: FlightMoneyDB
+
+# Libraries
+libs/LibDeflate/LibDeflate.lua
+libs/LibSerialize/LibSerialize.lua
+
+utils.lua
+tracking.lua
+core.lua
+ui.lua
