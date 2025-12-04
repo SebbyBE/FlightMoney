@@ -1,0 +1,19 @@
+## Title: Flight Money
+## Author: Bougie
+## Version: 0.0.1
+## Notes: Tracks how much money and how much time you have spent on flights
+## SavedVariablesPerCharacter: FlightMoneyDB
+
+# --- Interface versions ---
+## Interface: 100207                 # Retail 10.2.7 (sert aussi pour MoP Remix)
+## Interface-Classic: 11500          # Classic Era (1.15.x)
+## Interface-ClassicSeasonal: 11500  # Classic Saison / Hardcore / SoD
+
+# --- Fichiers communs ---
+libs/LibDeflate/LibDeflate.lua
+libs/LibSerialize/LibSerialize.lua
+
+utils.lua
+tracking.lua
+core.lua
+ui.lua
